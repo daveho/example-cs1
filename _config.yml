@@ -1,0 +1,12 @@
+name: ""
+description: ""
+
+url: "http://cs-commons.github.io/example-cs1"
+
+paginate: 10
+
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+
+pygments: true
