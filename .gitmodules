@@ -1,0 +1,3 @@
+[submodule "assignments/breakout"]
+	path = assignments/breakout
+	url = https://github.com/daveho/breakout.git
