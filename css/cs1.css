@@ -1,0 +1,11 @@
+#content {
+	max-width: 45em;
+	margin: 0 auto;
+}
+
+#header {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	font-size: 200%;
+	text-align: center;
+}

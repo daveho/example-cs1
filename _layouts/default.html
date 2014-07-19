@@ -6,12 +6,18 @@
 		<script type="text/javascript" src="{{site.url}}/js/cs-commons.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				cs_commons.init("{{site.url}}", "{{page.artifact-name}}");
+				if ("{{page.artifact-name}}" !== "") {
+					cs_commons.init("{{site.url}}", "{{page.artifact-name}}");
+				}
 			});
 		</script>
+		<link rel="stylesheet" type="text/css" href="{{site.url}}/css/cs1.css">
 	</head>
 	<body>
-		{{content}}
+		<div id="content">
+			<div id="header">{{page.title}}</div>
+			{{content}}
+		</div>
 	</body>
 </html>
 
