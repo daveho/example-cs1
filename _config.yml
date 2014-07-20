@@ -3,13 +3,6 @@ description: ""
 
 url: "http://cs-commons.github.io/example-cs1"
 
-cs-commons-js-dir: "js"
-cs-commons-meta-dir: "meta"
-
-paginate: 10
-
 markdown: rdiscount
-rdiscount:
-  extensions: [smart]
 
 pygments: true
